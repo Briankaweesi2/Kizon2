@@ -615,8 +615,7 @@ if (mapId || contactMapId || servicesMapId) {
 
 	function initMap() {
 		var footerLocation = [
-			['Dhaka', 23.851602, 90.3782046],
-			['Pabna', 23.854842, 90.3782949]
+			['AFRICA HOUSE', 0.3142871857218479, 32.578464097901836],
 		];
 
 		var mapOptions = { 
@@ -640,7 +639,7 @@ if (mapId || contactMapId || servicesMapId) {
 					"elementType": "all",
 					"stylers": [
 						{
-							"visibility": "off"
+							"visibility": "on"
 						}
 					]
 				},
@@ -782,7 +781,7 @@ if (mapId || contactMapId || servicesMapId) {
 		}
 
 		// Services Map
-		var servicesLocation = { lat: 23.854322, lng: 90.3782046 }; 
+		var servicesLocation = { lat: 0.3142871857218479, lng: 32.578464097901836 }; 
 		var servicesMapOptions = { 
 	        zoom: 15,
 	        center: servicesLocation,
@@ -860,7 +859,7 @@ if (mapId || contactMapId || servicesMapId) {
 		}
 
 		// Contact MapId
-		var contactLocation = { lat: 23.854322, lng: 90.3782046 }; 
+		var contactLocation = { lat: 0.3142871857218479, lng: 32.578464097901836 }; 
 		var contactMapOptions = { 
 	        zoom: 15,
 	        center: contactLocation,
