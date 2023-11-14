@@ -11843,17 +11843,17 @@ header.hover-color-green .main-header-wraper .header-right .header-search .searc
 }
 @media (max-width: 767px) {
   .years-experience .number {
-    font-size: 45px;
+    font-size: 60px;
   }
 }
 .years-experience .number sup {
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 30px;
+  font-weight: 600;
   line-height: 60px;
 }
 @media (max-width: 767px) {
   .years-experience .number sup {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
 
